@@ -1,0 +1,20 @@
+.footer {
+  background-color: rgba(214, 219, 191, 1);
+  color: black;
+}
+.footer_container {
+  width: 80%;
+  padding: 1rem;
+  margin: auto;
+}
+.more {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.footer_container p {
+  margin: 0.6rem 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+}
