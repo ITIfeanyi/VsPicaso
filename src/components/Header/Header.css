@@ -1,13 +1,11 @@
 .header_container {
-  position: -webkit-sticky;
-  position: sticky;
+  position: relative;
   top: 0;
   width: 100%;
 }
+
 .header_subcontainer {
-  position: absolute;
-  z-index: 10;
-  width: 100%;
+  position: relative;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
@@ -37,12 +35,15 @@
   width: 100%;
 }
 .nav_container {
+  z-index: 10;
+  background-color: rgb(220, 226, 194);
   position: absolute;
   width: 100%;
-  top: 2.3rem;
+  top: 2.2rem;
 }
 .menu_container {
   list-style: none;
+  position: relative;
 }
 .menu_container li {
   border-bottom: 1px solid #ccc;
@@ -52,4 +53,6 @@
   padding: 0rem 1rem;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  color: black;
+  font-weight: 600;
 }

@@ -1,0 +1,16 @@
+.swiper-container {
+  position: relative;
+  height: 250px;
+  z-index: 0;
+}
+.swiper-wrapper {
+  width: 100%;
+  padding-inline-start: 0;
+}
+.swiper_img {
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
