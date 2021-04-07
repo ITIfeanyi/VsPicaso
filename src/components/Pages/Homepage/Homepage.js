@@ -11,6 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "../../Footer/Footer";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -83,7 +84,9 @@ const Homepage = () => {
           <p className={styles.more_Project_text}>
             We take photography to the next level
           </p>
-          <button>View more of our works</button>
+          <button>
+            <Link to='/portfolio'>View more of our works</Link>
+          </button>
         </div>
       </article>
       <Footer />

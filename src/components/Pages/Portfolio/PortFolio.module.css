@@ -1,0 +1,83 @@
+.ourportfolio {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 2rem 1rem;
+}
+.ourportfolio p {
+  width: 70%;
+  margin: auto;
+}
+.PortFolio_title {
+  font-size: 12px;
+  padding-bottom: 0.6rem;
+}
+.PortFolio_main {
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+.accountable {
+  background-color: white;
+  color: black;
+  width: 80%;
+  margin: 1.3rem auto;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+hr {
+  width: 40%;
+  margin-top: 0.5rem;
+}
+.portfolio_list {
+  width: 100%;
+}
+.portfolio {
+  width: 94%;
+  overflow: hidden;
+  height: 300px;
+  margin: 0.5rem auto;
+}
+.portfolio img {
+  width: 100%;
+}
+.portfolio_link {
+  position: relative;
+  display: block;
+}
+.btn {
+  position: absolute;
+  color: white;
+  top: 1.2rem;
+  left: 0.5rem;
+  bottom: 0;
+  right: 0;
+}
+.btn span {
+  padding: 0.6rem 1.9rem;
+  border: 2px solid white;
+  font-weight: 600;
+}
+.think_photoshoot {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.think_photoshoot_text {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0.4rem;
+}
+.think_photoshoot_text_small {
+  font-size: 13px;
+  padding-bottom: 0.4rem;
+}
+.think_photoshoot_text_large {
+  font-size: 1.3rem;
+}
+.think_photoshoot_text button {
+  margin-top: 1.4rem;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
